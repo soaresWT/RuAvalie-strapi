@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "votacoes",
+  "info": {
+    "singularName": "votacao",
+    "pluralName": "votacoes",
+    "displayName": "Votacao"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Data": {
+      "type": "date"
+    },
+    "Periodo": {
+      "type": "string"
+    },
+    "CV": {
+      "type": "json"
+    },
+    "CB": {
+      "type": "json"
+    },
+    "VT": {
+      "type": "json"
+    },
+    "alunos": {
+      "type": "json"
+    }
+  }
+}
